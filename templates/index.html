@@ -111,7 +111,7 @@
 
 				  			<div class="more animate-intro">
 				  				<a class="smoothscroll button stroke" href="#about">
-				  					გაიგე მეტი
+				  					ნახე მეტი
 				  				</a>
 				  			</div>							
 
@@ -134,7 +134,11 @@
            	<a href="#"><i class="fa fa-behance"></i></a>
          </li>
 	      <li class="animate-intro">
-	        	<a href="#"><i class="fa fa-dribbble"></i></a>
+	      		<audio controls autoplay>
+				  
+				  <source src="{% static 'audio/I_Love_You_Baby.mp3' %}" type="audio/mpeg">
+				</audio>
+	        	{# <a href="#"><i class="fa fa-dribbble"></i></a> #}
 	      </li>	      
 	   </ul> <!-- end home-social-list -->	
 
@@ -424,15 +428,23 @@
 
 		<div class="row narrow section-intro with-bottom-sep animate-this">
    		<div class="col-twelve">
-   			<h3>Contact</h3>
-   			<h1>Get In Touch.</h1>
-
+   			{# <h3>Contact</h3> #} 
+   			<h1>დიდი მადლობა ყველას დახმარებისთვის და მოლოცვისთვის</h1>
+{% comment %}
    			<p class="lead">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+{% endcomment %}
    		</div> 
    	</div> <!-- end section-intro -->
 
    	<div class="row contact-content">
 
+
+   		<iframe width="1000" height="800" src="https://www.youtube.com/embed/c6WNA5by5vo"></iframe>
+
+
+
+
+{% comment %}
    		<div class="col-seven tab-full animate-this">
 
    			<h5>Send Us A Message</h5>
@@ -517,7 +529,7 @@
 	   		</div>
 
          </div> <!-- end cinfo --> 
-
+    {% endcomment %}
    	</div> <!-- end row contact-content -->
 		
 	</section> <!-- end contact -->
