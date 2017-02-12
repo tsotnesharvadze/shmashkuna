@@ -1318,6 +1318,7 @@ header .header-logo a {
   -webkit-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-size: smaller;
 }
 #header-menu-trigger .header-menu-icon {
   display: block;
@@ -1779,7 +1780,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  background-color: #fbc6d8;
   min-height: 696px;
   text-align: center;
 }
