@@ -2554,6 +2554,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 1.4rem;
 }
 
+
+
 /* contact info */
 .contact-info .cinfo {
   margin-bottom: 4.2rem;
@@ -2780,10 +2782,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     width: 100%;
     margin-top: 3.6rem;
   }
+  #myframe{
+    width: 500px;
+    height: 300px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .contact-content {
     max-width: 480px;
+  }
+  #myframe{
+    width: 400px;
+    height: 200px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -2794,6 +2804,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+  }
+  #myframe{
+    width: 290px;
+    height: 150px;
+  }
+  audio{
+    width: 64px;
   }
 }
 

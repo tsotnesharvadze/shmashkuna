@@ -1,4 +1,11 @@
 #myframe
 {
-	margin:0% 26%;
+	max-width:"800" ;
+	max-height:"480";
+}
+
+.youtube{
+  margin: auto;
+  max-width: 800px;
+  
 }
